@@ -1,0 +1,28 @@
+{
+  "name": "ck-weapons",
+  "version": "1.0.0",
+  "bin": {
+    "runitbreh": "cli.js"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckuzmick/ck-weapons.git"
+  },
+  "author": "Conrad Kuzmick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckuzmick/ck-weapons/issues"
+  },
+  "homepage": "https://github.com/ckuzmick/ck-weapons#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.2",
+    "yargs": "^17.1.1"
+  }
+}
