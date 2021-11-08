@@ -13,7 +13,7 @@ const code = () => {
 
     clear();
 
-    console.log(chalk.blue(figlet.textSync('opening codespace', {font: 'Chunky'})));
+    console.log(figlet.textSync('opening codespace'));
 
     cp.spawnSync('open', [
         "-a", "Firefox Developer Edition",
@@ -39,7 +39,7 @@ const code = () => {
        console.log(chalk.red(`ERROR: /Users/ck/Development/${yargs._[1]} does not exist`))
      }
     } catch(e) {
-      console.log(chalk.red("An error occurred."))
+       console.log(chalk.red("An error occurred."))
     }
 }
 
